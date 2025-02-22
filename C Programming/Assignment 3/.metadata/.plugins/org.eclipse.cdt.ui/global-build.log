@@ -1,2 +1,5 @@
-Info: Nothing to build for Exercise23
-Info: Nothing to build for Exercise23
+00:27:14 **** Incremental Build of configuration Debug for project Exercise9 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex9.o "..\\ex9.c" 
+gcc -o Exercise9.exe ex9.o 
+Info: Nothing to build for Exercise9
