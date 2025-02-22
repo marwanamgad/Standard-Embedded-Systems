@@ -1,0 +1,27 @@
+/*
+ * ex1.c
+ *
+ *  Created on: Jan 25, 2025
+ *      Author: marwan
+ */
+
+
+#include <stdio.h>
+
+int main(void)
+{
+	int num1,num2,res;
+	printf("num1: ");
+	fflush(stdout);
+	scanf("%d\n",&num1);
+
+	printf("num2 : ");
+	fflush(stdout);
+	scanf("%d\n",&num2);
+
+	res = ((num1+num2)*3)-10;
+
+	printf("Result is %d" ,res);
+
+	return 0;
+}

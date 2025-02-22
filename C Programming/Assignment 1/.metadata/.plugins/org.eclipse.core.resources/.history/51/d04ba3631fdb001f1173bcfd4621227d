@@ -1,0 +1,18 @@
+/*
+ * ex5.c
+ *
+ *  Created on: Jan 25, 2025
+ *      Author: marwan
+ */
+
+
+#include <stdio.h>
+int main(void)
+{
+	char Character;
+
+	printf("Enter the Character : \n");
+	fflush(stdout);
+	scanf("%d",&Character)
+
+}

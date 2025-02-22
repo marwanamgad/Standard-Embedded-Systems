@@ -1,0 +1,19 @@
+/*
+ * ex7.c
+ *
+ *  Created on: Jan 25, 2025
+ *      Author: marwan
+ */
+
+
+#include <stdio.h>
+
+int main(void)
+{
+	printf("num1 : ");
+	fflush(stdout);
+	printf("num2 : ");
+	fflush(stdout);
+	printf("num3 : ");
+	fflush(stdout);
+}

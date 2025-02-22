@@ -1,0 +1,15 @@
+/*
+ * ex2.c
+ *
+ *  Created on: Jan 25, 2025
+ *      Author: marwan
+ */
+
+#include <stdio.h>
+int main(void)
+{
+
+	Printf("Grade is 97");
+
+	return 0;
+}

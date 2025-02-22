@@ -1,0 +1,52 @@
+/*
+ * ex24.c
+ *
+ *  Created on: Feb 20, 2025
+ *      Author: marwan
+ */
+
+
+//Find second largest bumber in an array
+#include<stdio.h>
+#define MAX_SIZE 10
+int second_Largest_Number(int* array, int size){
+	int i;
+	int max1;
+	int max2;
+
+	max1 = max2 = 0;
+
+	for(i=0;i<size;i++)
+	{
+		if(array[i] > max1)
+		{
+			max2 = max1;
+			max1 = array[1];
+
+		}
+		else if(array[i] > max2 && array[i] < max1 )
+		{
+			max2 = array[i];
+		}
+	}
+	return max2;
+}
+
+int main (void)
+{
+	int array[MAX_SIZE], i;
+	int returnValue;
+
+	printf("Enter the elements in the array : ");
+	fflush(stdout);
+	for(i=0;i<MAX_SIZE;i++)
+	{
+		scanf("%d", array[i]);
+	}
+
+	 returnValue = second_Largest_Number(array,MAX_SIZE);
+
+	    printf("Second largest = %d", returnValue);
+
+	    return 0;
+}
