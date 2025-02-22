@@ -1,5 +1,8 @@
-00:27:14 **** Incremental Build of configuration Debug for project Exercise9 ****
+00:52:06 **** Incremental Build of configuration Debug for project Exercise17 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex9.o "..\\ex9.c" 
-gcc -o Exercise9.exe ex9.o 
-Info: Nothing to build for Exercise9
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex17.o "..\\ex17.c" 
+gcc -o Exercise17.exe ex17.o 
+00:52:09 **** Incremental Build of configuration Debug for project Exercise17 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex17.o "..\\ex17.c" 
+gcc -o Exercise17.exe ex17.o 
