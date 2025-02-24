@@ -6,6 +6,8 @@
  */
 
 
+// C Program to compute sum of the array elements using pointers
+
 #include<stdio.h>
 
 int main (void)
