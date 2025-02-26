@@ -16,7 +16,7 @@ int string_length(char *ptr)
 		ptr++; //increment the pointer to get to next character
 	}
 	return string_count;
-}
+	}
 
 int main(void)
 {
