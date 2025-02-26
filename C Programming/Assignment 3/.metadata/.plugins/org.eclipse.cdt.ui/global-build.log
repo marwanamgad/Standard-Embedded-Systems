@@ -1,5 +1,8 @@
-04:30:41 **** Incremental Build of configuration Debug for project Exercise19 ****
+05:25:05 **** Incremental Build of configuration Debug for project Exercise20 ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex19.o "..\\ex19.c" 
-gcc -o Exercise19.exe ex19.o 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ex20.o "..\\ex20.c" 
+gcc -o Exercise20.exe ex20.o 
 Info: Nothing to build for Exercise19
+Info: Nothing to build for Exercise20
+Info: Nothing to build for Exercise20
+Info: Nothing to build for Exercise21
